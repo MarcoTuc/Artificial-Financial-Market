@@ -1,8 +1,8 @@
 ### Dependencies
-Una lista dei pacchetti python necessari per far girare il modello può essere trovata nel file requirements.txt nella cartella model. 
+A list of dependencies can be found in requirements.txt. 
 
-### Esecuzione del modello
-Per far girare il modello è sufficiente eseguire lo script run.py 
+### Model configuration::: conf.py
+Model parameters and hyperparameters can be configured. Here you can specify also the number of simulations to run and the number of steps per simulation. Here a path for where the project results will be saved can be specified, make sure to know where model results will be saved. 
 
-### Configurazione del modello
-Il modello può essere configurato modificando i parametri dello script conf.py. In esso possono essere modificati i parametri spiegati nella relazione del progetto così come può essere specificato il numero di passi da fare per simulazione, il numero di simulazioni da eseguire nel batch corrente ed il percorso nel quale verranno salvati i risultati.
+### Model execution::: run.py
+
